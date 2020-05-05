@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    tools:context=".MainActivity"
+    android:id="@+id/osnova"
+    android:background="#e7e8ea"
+    android:contextClickable="true">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textInfo"
+        android:textSize="22dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:visibility="visible" />
+
+    <ListView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/pairedlist"
+        android:layout_below="@+id/textInfo"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"
+
+        android:layout_marginLeft="20dp"
+        android:visibility="visible" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#e7e7e5"
+        android:id="@+id/ButPanel"
+        android:visibility="gone">
+
+
+        <!--D10-->
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton"
+            android:layout_gravity="left|top"
+            android:src="@drawable/offlamp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:onClick="onClickBut1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D10"
+            android:id="@+id/d10"
+            android:layout_gravity="center_horizontal|top"
+            android:textSize="30dp"
+            android:layout_marginTop="30dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton2"
+            android:layout_gravity="right|top"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/onlamp"
+            android:onClick="onClickBut2" />
+
+
+        <!--D11-->
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton3"
+            android:layout_gravity="left|top"
+            android:src="@drawable/offlamp"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="30dp"
+            android:onClick="onClickBut3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D11"
+            android:id="@+id/d11"
+            android:layout_gravity="center_horizontal|top"
+            android:textSize="30dp"
+            android:layout_marginTop="110dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton4"
+            android:layout_gravity="right|top"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/onlamp"
+            android:onClick="onClickBut4" />
+
+
+        <!--D12-->
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton5"
+            android:layout_gravity="left|top"
+            android:src="@drawable/offlamp"
+            android:layout_marginTop="180dp"
+            android:layout_marginLeft="30dp"
+            android:onClick="onClickBut5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D12"
+            android:id="@+id/d12"
+            android:layout_gravity="center_horizontal|top"
+            android:textSize="30dp"
+            android:layout_marginTop="190dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton6"
+            android:layout_gravity="right|top"
+            android:layout_marginTop="180dp"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/onlamp"
+            android:onClick="onClickBut6" />
+
+
+        <!--D13-->
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton7"
+            android:layout_gravity="left|top"
+            android:src="@drawable/offlamp"
+            android:layout_marginTop="260dp"
+            android:layout_marginLeft="30dp"
+            android:onClick="onClickBut7" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D13"
+            android:id="@+id/d13"
+            android:layout_gravity="center_horizontal|top"
+            android:textSize="30dp"
+            android:layout_marginTop="270dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton8"
+            android:layout_gravity="right|top"
+            android:layout_marginTop="260dp"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/onlamp"
+            android:onClick="onClickBut8" />
+
+    </FrameLayout>
+
+</RelativeLayout>
